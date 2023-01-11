@@ -1,0 +1,34 @@
+.estrutura-container {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container01 {
+  background-image: url("../home/img/01.jpg");
+}
+
+.container02 {
+  background-image: url("../home/img/02.jpg");
+}
+
+.container03 {
+  background-image: url("../home/img/03.gif");
+}
+
+.container04 {
+  background-image: url("../home/img/04.jpg");
+}
+
+.container-footer {
+  background-color: black;
+}
+.container-footer span {
+  color: #555252;
+}
+.container-footer a {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
