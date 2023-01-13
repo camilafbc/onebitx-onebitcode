@@ -1,0 +1,59 @@
+@import '../../variaveis/colors.scss';
+
+
+
+.human-space-container{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+        &.container05{
+            background-image: url('../pages/human-space-flight/img/01.jpg');
+        }
+
+        &.container06{
+            background-image: url('../pages/human-space-flight/img/02.jpg');
+        }
+        
+        &.container07{
+            background-image: url('../pages/human-space-flight/img/03.jpg');
+        }
+        
+        &.container08{
+            background-image: url('../pages/human-space-flight/img/04.jpg');
+        }
+
+        &.container09{
+            background-image: url('../pages/human-space-flight/img/05.jpg');
+        }
+
+        &.container10{
+            background-color: $black-color;
+        }
+
+        button{
+            padding: 15px 35px;
+        }
+}
+
+.right-container{
+    padding-top: 200px;
+    padding-left: 48%;
+    color: $white-color;
+}
+
+.left-container{
+    padding-top: 200px;
+    color: $white-color;
+}
+
+.mission-title, .hs-container-subtitle{
+    
+    font-weight: 300;
+}
+
+.hs-container-title{
+    font-size: 3.25rem;
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+.estrutura-container{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+        &.container01{
+            background-image: url('../pages/home/img/01.jpg');
+        }
+
+        &.container02{
+            background-image: url('../pages/home/img/02.jpg');
+        }
+        
+        &.container03{
+            background-image: url('../pages/home/img/03.gif');
+        }
+        
+        &.container04{
+            background-image: url('../pages/home/img/04.jpg');
+        }
+}
+
+
+
+.titlePadding{
+    padding-top: 200px;
+    color: $white-color;
+    
+    
+
+    .btn{
+        padding: 15px 35px;
+    }
+}
+
+// .container-title{
+
+// }
+
+.container-subtitle{
+    width: 60%;
+}

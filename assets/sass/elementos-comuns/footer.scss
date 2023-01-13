@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: $black-color;
+
+    span{
+        color: $grey-color;
+    }
+
+    a{
+        color: $white-color;
+
+        &:hover{
+            color: $hover-link-color;
+        }
+    }
+}
