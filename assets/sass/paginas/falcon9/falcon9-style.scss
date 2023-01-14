@@ -1,0 +1,86 @@
+.falcon-container{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    &.falcon9{
+        background-image: url(../pages/falcon-9/img/01.jpg);
+    }
+
+    &.falcon-dados{
+        background-image: url(../pages/falcon-9/img/02.jpg);
+    }
+
+    &.merlin{
+        background-image: url(../pages/falcon-9/img/08.jpg);
+    }
+
+    &.carousel-container{
+        background-image: url(../pages/falcon-9/img/03.jpg);
+    }
+
+    &.carousel-container02{
+        background-image: url(../pages/falcon-9/img/04.jpg);
+    }
+
+    &.carousel-container03{
+        background-image: url(../pages/falcon-9/img/05.jpg);
+    }
+
+    &.carousel-container04{
+        background-image: url(../pages/falcon-9/img/06.jpg);
+    }
+
+    &.carousel-container05{
+        background-image: url(../pages/falcon-9/img/07.jpg);
+    }
+}
+
+.falcon9-content{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+        h1 {
+            font-size: 120px;
+        }
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 50px;
+            font-size: 30px;
+            font-weight: 300;
+          }
+}
+
+.falcon-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    background-color: $black-color;
+
+    .colNumber{
+        font-size: 90px;
+    }
+
+    .colTitle{
+        font-size: 20px;
+    }
+}
+
+.falcon-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+
+    p{
+        font-size: 22px;
+        width: 640px;
+        line-height: 50px;
+    }
+}

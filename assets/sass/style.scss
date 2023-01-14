@@ -1,10 +1,14 @@
 @import 'variaveis/colors.scss';
 
+@import 'elementos-comuns/body.scss';
+
 @import 'elementos-comuns/header.scss';
+
+@import 'elementos-comuns/footer.scss';
 
 @import '../sass/paginas/home/home-style.scss';
 
-@import 'elementos-comuns/footer.scss';
+@import 'paginas/falcon9/falcon9-style.scss';
 
 @import 'paginas/human-space-flight/human-space-style.scss';
 
