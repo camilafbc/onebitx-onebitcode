@@ -1,3 +1,5 @@
+@import '../../variaveis/colors.scss';
+
 .falcon-container{
     background-size: cover;
     background-position: center;
@@ -82,5 +84,33 @@
         font-size: 22px;
         width: 640px;
         line-height: 50px;
+    }
+}
+
+.table-container{
+    padding-top: 10%;
+    margin-left: 15%;
+    width: 500px;
+
+    
+    td{
+        color: $white-color;
+        border-bottom: 1px solid $white-color;
+    }
+
+    .td-table-right{
+        text-align: end;
+    }
+}
+
+
+
+.carousel-pictures{
+    img{
+        height: 100vh;
+    }
+
+    p{
+        background-color: black;
     }
 }

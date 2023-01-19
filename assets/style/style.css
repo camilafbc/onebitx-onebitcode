@@ -132,6 +132,26 @@ body {
   line-height: 50px;
 }
 
+.table-container {
+  padding-top: 10%;
+  margin-left: 15%;
+  width: 500px;
+}
+.table-container td {
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+.table-container .td-table-right {
+  text-align: end;
+}
+
+.carousel-pictures img {
+  height: 100vh;
+}
+.carousel-pictures p {
+  background-color: black;
+}
+
 .human-space-container {
   background-size: cover;
   background-position: center;
