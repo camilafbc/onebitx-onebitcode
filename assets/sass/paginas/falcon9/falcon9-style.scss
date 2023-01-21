@@ -48,6 +48,7 @@
     
         h1 {
             font-size: 120px;
+            filter: drop-shadow(2px 4px 6px $black-color);
         }
 
         p {
@@ -55,7 +56,23 @@
             margin-bottom: 50px;
             font-size: 30px;
             font-weight: 300;
+            filter: drop-shadow(2px 4px 6px $black-color);
           }
+}
+
+// #overViewPosition {
+//     width: 500px;
+//     margin-left: 13%;
+//     padding-top: 15%;
+//   }
+
+.subTitleOverView{
+    padding-bottom: 15px;
+}
+
+.titleOverView{
+    padding-bottom: 20px;
+    font-family: "Rubik", sans-serif;
 }
 
 .falcon-data{
@@ -88,9 +105,9 @@
 }
 
 .table-container{
-    padding-top: 10%;
-    margin-left: 15%;
     width: 500px;
+    margin-left: 13%;
+    padding-top: 15%;
 
     
     td{
@@ -101,6 +118,7 @@
     .td-table-right{
         text-align: end;
     }
+
 }
 
 
@@ -114,3 +132,80 @@
         background-color: black;
     }
 }
+
+// RESPONSIVIDADE
+
+@media (max-width: 1024px) {
+    .falcon-data {
+      p {
+        font-size: 18px;
+      }
+    }
+    .falcon-desc {
+      font-size: 26px;
+    }
+    
+    .table-container {
+      display: block;
+      width: 500px;
+      margin-left: 13%;
+      padding-top: 20%;
+    }
+  }
+
+  @media (max-width: 510px) {
+    .download-content {
+      button {
+        margin: 10px 0px;
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+    .falcon9-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 80vh;
+    
+        h1 {
+        font-size: 50px;
+        }
+    }
+
+    .falcon-data {
+      .colNumber {
+        font-size: 40px;
+        padding-top: 15px;
+      }
+
+      .colTitle {
+        font-size: 14px;
+      }
+    }
+
+    .falcon-description {
+      p {
+        width: auto;
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
+
+    .table-container {
+      display: flex;
+      height: 90vh;
+      flex-direction: column;
+      justify-content: center;
+      width: auto;
+      margin-left: auto;
+    }
+    .titleOverView {
+      font-size: 26px;
+      font-weight: bold;
+    }
+    .subTitleOvewView {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
