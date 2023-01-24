@@ -4,8 +4,9 @@ body {
 }
 
 .header {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
+  filter: drop-shadow(2px 4px 6px #000000);
 }
 
 .logoPc {
@@ -30,7 +31,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   background-color: #000000;
 }
@@ -152,7 +153,6 @@ body {
 
 .titleOverView {
   padding-bottom: 20px;
-  font-family: "Rubik", sans-serif;
 }
 
 .falcon-data {
@@ -215,6 +215,45 @@ body {
     padding-top: 20%;
   }
 }
+@media (max-width: 778px) {
+  .falcon9-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+  }
+  .falcon9-content h1 {
+    font-size: 50px;
+  }
+  .falcon-data .colNumber {
+    font-size: 45px;
+    padding-top: 15px;
+  }
+  .falcon-data .colTitle {
+    font-size: 18px;
+  }
+  .falcon-description p {
+    width: auto;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .table-container {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin-left: auto;
+  }
+  .titleOverView {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .subTitleOvewView {
+    font-size: 22px;
+    font-weight: 300;
+  }
+}
 @media (max-width: 510px) {
   .download-content button {
     margin: 10px 0px;
@@ -266,25 +305,26 @@ body {
   min-height: 100vh;
 }
 .human-space-container.container05 {
-  background-image: url("../pages/human-space-flight/img/01.jpg");
+  background-image: url("../pages/human-space/img/01.jpg");
 }
 .human-space-container.container06 {
-  background-image: url("../pages/human-space-flight/img/02.jpg");
+  background-image: url("../pages/human-space/img/02.jpg");
 }
 .human-space-container.container07 {
-  background-image: url("../pages/human-space-flight/img/03.jpg");
+  background-image: url("../pages/human-space/img/03.jpg");
 }
 .human-space-container.container08 {
-  background-image: url("../pages/human-space-flight/img/04.jpg");
+  background-image: url("../pages/human-space/img/04.jpg");
 }
 .human-space-container.container09 {
-  background-image: url("../pages/human-space-flight/img/05.jpg");
+  background-image: url("../pages/human-space/img/05.jpg");
 }
 .human-space-container button {
   padding: 15px 35px;
 }
 
 .container05-content {
+  margin-bottom: -23px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -312,14 +352,23 @@ body {
 }
 .earth-container p {
   font-weight: 400;
+  line-height: 25px;
   font-size: 18px;
   width: 800px;
+}
+.earth-container a {
+  color: #FFFFFF;
+  font-weight: 600;
 }
 
 .download-content {
   height: 85vh;
   padding-top: 200px;
   background-color: #000000;
+}
+.download-content a {
+  color: #FFFFFF;
+  font-weight: 600;
 }
 
 .right-container {
@@ -368,6 +417,15 @@ body {
     padding-top: 20%;
   }
 }
+@media (max-width: 749px) {
+  .container05-content h1 {
+    font-size: 60px;
+  }
+  .container05-content p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
 @media (max-width: 425px) {
   .container05-content h1 {
     font-size: 40px;
@@ -385,8 +443,8 @@ body {
     width: 300px;
   }
   .right-container {
-    margin-left: 20%;
-    padding-top: 30%;
+    margin-left: 24%;
+    padding-top: 40%;
   }
   .hs-container-title {
     font-size: 50px;
@@ -398,7 +456,7 @@ body {
   }
   .left-container {
     margin-left: 7%;
-    padding-top: 30%;
+    padding-top: 40%;
   }
 }
 

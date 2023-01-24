@@ -6,23 +6,23 @@
     min-height: 100vh;
 
         &.container05{
-            background-image: url('../pages/human-space-flight/img/01.jpg');
+            background-image: url('../pages/human-space/img/01.jpg');
         }
 
         &.container06{
-            background-image: url('../pages/human-space-flight/img/02.jpg');
+            background-image: url('../pages/human-space/img/02.jpg');
         }
         
         &.container07{
-            background-image: url('../pages/human-space-flight/img/03.jpg');
+            background-image: url('../pages/human-space/img/03.jpg');
         }
         
         &.container08{
-            background-image: url('../pages/human-space-flight/img/04.jpg');
+            background-image: url('../pages/human-space/img/04.jpg');
         }
 
         &.container09{
-            background-image: url('../pages/human-space-flight/img/05.jpg');
+            background-image: url('../pages/human-space/img/05.jpg');
         }
 
         button{
@@ -31,6 +31,7 @@
 }
 
 .container05-content{
+    margin-bottom: -23px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -42,13 +43,13 @@
             filter: drop-shadow(2px 4px 6px $black-color);
         };
     
-      p {
-        margin-top: 20px;
-        margin-bottom: 50px;
-        font-size: 30px;
-        font-weight: 300;
-        filter: drop-shadow(2px 4px 6px $black-color);
-      }
+        p {
+          margin-top: 20px;
+          margin-bottom: 50px;
+          font-size: 30px;
+          font-weight: 300;
+          filter: drop-shadow(2px 4px 6px $black-color);
+        }
 }
 
 .earth-container{
@@ -60,8 +61,14 @@
 
     p{
         font-weight: 400;
+        line-height: 25px;
         font-size: 18px;
         width: 800px;
+    }
+
+    a{
+      color: $white-color;
+      font-weight: 600;
     }
 }
 
@@ -69,6 +76,11 @@
     height: 85vh;
     padding-top: 200px;
     background-color: $black-color;
+
+    a{
+      color: $white-color;
+      font-weight: 600;
+    }
 }
 
 .right-container{
@@ -105,7 +117,6 @@
 
     }
 
-  
     .right-container {
       margin-left: 50%;
       padding-top: 20%;
@@ -125,7 +136,19 @@
       margin-left: 5%;
       padding-top: 20%;
     }
-  
+}
+
+@media (max-width: 749px){
+  .container05-content{
+        h1 {
+            font-size: 60px;
+        };
+    
+      p {
+        font-size: 20px;
+        font-weight: 300;
+      }
+}
 }
 
   @media (max-width: 425px) {
@@ -154,8 +177,8 @@
     }
   
     .right-container {
-      margin-left: 20%;
-      padding-top: 30%;
+      margin-left: 24%;
+      padding-top: 40%;
     }
   
     .hs-container-title {
@@ -170,6 +193,6 @@
   
     .left-container {
       margin-left: 7%;
-      padding-top: 30%;
+      padding-top: 40%;
     }
   }
