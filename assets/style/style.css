@@ -225,6 +225,9 @@ body {
   .falcon9-content h1 {
     font-size: 50px;
   }
+  .falcon9-content p {
+    font-size: 20px;
+  }
   .falcon-data .colNumber {
     font-size: 45px;
     padding-top: 15px;
@@ -268,6 +271,9 @@ body {
   }
   .falcon9-content h1 {
     font-size: 50px;
+  }
+  .falcon9-content p {
+    font-size: 16px;
   }
   .falcon-data .colNumber {
     font-size: 40px;
@@ -325,7 +331,7 @@ body {
 
 .container05-content {
   margin-bottom: -23px;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -423,7 +429,6 @@ body {
   }
   .container05-content p {
     font-size: 20px;
-    font-weight: 300;
   }
 }
 @media (max-width: 425px) {
