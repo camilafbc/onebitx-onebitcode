@@ -9,7 +9,7 @@ Página desenvolvida como exercício prático do curso "FullStack Javascript" of
 
 O site foi desenvolvido utilizando o Bootstrap e o SASS além de uma biblioteca de animação de texto.
 
-[ACESSAR PÁGINA](https://camilafbc.github.io/onebitx-onebitcode/index.html)
+👉 [ACESSAR PÁGINA](https://camilafbc.github.io/onebitx-onebitcode/index.html)
 
 ## Conceitos trabalhados: 
 
